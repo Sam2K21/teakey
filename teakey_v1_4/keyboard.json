@@ -1,0 +1,47 @@
+{
+    "manufacturer": "Samuel Wright",
+    "keyboard_name": "Teakey",
+    "maintainer": "Sam2K21",
+    "development_board": "promicro_rp2040",
+    "diode_direction": "COL2ROW",
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP5", "pin_b": "GP6"},
+            {"pin_a": "GP2", "pin_b": "GP3"}
+        ]
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP23", "GP22", "GP20", "GP21", "GP8", "GP9", "GP4", "GP1", "GP0"]
+        ]
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x544B",
+        "vid": "0x5357"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [0, 5], "x": 5, "y": 0},
+                {"matrix": [0, 6], "x": 6, "y": 0},
+                {"matrix": [0, 7], "x": 7, "y": 0},
+                {"matrix": [0, 8], "x": 8, "y": 0}
+            ]
+        }
+    }
+}
